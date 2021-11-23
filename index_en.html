@@ -1,11 +1,7 @@
 <!DOCTYPE html>
-<!-- saved from  -->
 <html lang="en-US"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-    
-
-<!-- Begin Jekyll SEO tag v2.7.1 -->
-<title>Climate Data Workshop</title>
+<title>WMO Climatological Standard Normals Calculation</title>
 <meta name="generator" content="Jekyll v3.9.0">
 <meta property="og:title" content="Tackling Climate Data Management">
 <meta property="og:locale" content="en_US">
@@ -20,23 +16,14 @@
     <meta name="theme-color" content="#157878">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
-   
-
-    <link rel="stylesheet" href="https://dgm-meteo.github.io/w-cdmse/css/style.css">
-    <link rel="stylesheet" href="https://dgm-meteo.github.io/w-cdmse/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="https://dgm-meteo.github.io/wmo-clino/css/style.css">
+    <link rel="stylesheet" href="https://dgm-meteo.github.io/wmo-clino/css/materialdesignicons.min.css">
   </head>
   <body>
 <div class="row">
-    <!--div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-12">
-    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-12"-->
-    <!-- Banner-->
-    <!--center><img src="https://dgm-meteo.github.io/w-cdmse/images/Afrique4.png" alt="banner" style="width:80%;max-height:240px;max-width:1140px" ></center-->
-    <!--center><img src="https://dgm-meteo.github.io/w-cdmse/images/Afrique4logos.png" alt="banner" style="width:80%;max-height:240px;max-width:1140px" ></center-->
-    <!--center><img src="https://dgm-meteo.github.io/w-cdmse/images/Afrique-01-02.png" alt="banner" style="width:80%;max-height:240px;max-width:1000px" ></center-->
-    <center><img src="https://dgm-meteo.github.io/w-cdmse/images/Afrique-02-02.png" alt="banner" style="width:80%;max-height:240px;max-width:1000px" ></center>
-    <!-- End Banner -->
-	<center><a class="button" href="https://dgm-meteo.github.io/w-cdmse/index.html" style="background-color:#04587B;color:white;">French</a>
-	<a class="button" href="https://dgm-meteo.github.io/w-cdmse/index_en.html" >English</a></center>
+  <center><img src="https://dgm-meteo.github.io/wmo-clino/images/Afrique-02-02.png" alt="banner" style="width:80%;max-height:240px;max-width:1000px" ></center>
+  <center><a class="button" href="https://dgm-meteo.github.io/wmo-clino/index.html" style="background-color:#04587B;color:white;">French</a>
+  <a class="button" href="https://dgm-meteo.github.io/wmo-clino/index_en.html" >English</a></center>
     </div>
 <style>
   .ro3D { 
@@ -48,30 +35,55 @@
   }
 </style>
 
-<!--img src="./images/Afrique-01-01.png" style="width:80%;max-height:240px;max-width:1000px" class="ro3D"/-->
-
     <main id="content" class="main-content" role="main">
-
-      <h1 style="middle"><center> Workshop on climate data management, data sharing and exchange. 
-	      <p style="font-size: 1.2rem"> DGM-WMO, 4-5 et 9 November 2021
+    <h1 style="middle"><center> Workshop on WMO Climatological Standard Normals Calculation. 
+	      <p style="font-size: 1.2rem"> DGM-WMO, 11 and 13 December 2021
 	  </center></h1>
 
 <div class="buttons">
-  <a class="button" href="https://dgm-meteo.github.io/w-cdmse/index_en.html#about-the-workshop">Background</a>
-  <a class="button" href="https://dgm-meteo.github.io/w-cdmse/index_en.html#Registration">Registration</a>
-  <a class="button" href="https://dgm-meteo.github.io/w-cdmse/index_en.html#Participants">Participants</a>
-  <a class="button" href="https://dgm-meteo.github.io/w-cdmse/index_en.html#schedule">Agenda</a>
-  <a class="button" href="https://dgm-meteo.github.io/w-cdmse/index_en.html#Recordings">Recordings</a>
-  <a class="button" href="https://dgm-meteo.github.io/w-cdmse/index_en.html#invited-speakers">Speakers</a>
-  <a class="button" href="https://dgm-meteo.github.io/w-cdmse/index_en.html#organizers">Organizers</a>
+  <a class="button" href="https://dgm-meteo.github.io/wmo-clino/index_en.html#about-the-workshop">Background</a>
+  <a class="button" href="https://dgm-meteo.github.io/wmo-clino/index_en.html#Registration">Registration</a>
+  <a class="button" href="https://dgm-meteo.github.io/wmo-clino/index_en.html#Participants">Participants</a>
+  <a class="button" href="https://dgm-meteo.github.io/wmo-clino/index_en.html#schedule">Agenda</a>
+  <a class="button" href="https://dgm-meteo.github.io/wmo-clino/index_en.html#Recordings">Recordings</a>
+  <a class="button" href="https://dgm-meteo.github.io/wmo-clino/index_en.html#invited-speakers">Speakers</a>
+  <a class="button" href="https://dgm-meteo.github.io/wmo-clino/index_en.html#organizers">Organizers</a>
 </div>
-
 <hr>
-
-<!--center> <h2 id="Announcement">Announcement</h2> </center>
-<hr-->
+<!-- ************************************ --> 
 <h2 id="about-the-workshop">Background</h2>
+<!-- ************************************ --> 
 <ul ><p style="text-align: justify;">
+	
+New climatological standard normals should be calculated of the thirty-year period 1991-2020 responding
+to the <a href="https://community.wmo.int/wmo-climatological-normals"> <strong>call of the World Meteorological Organization (WMO)</strong></a>. 
+	As you may recall, the Seventeenth World
+Meteorological Congress (Cg-17) in 2015, through <a href="https://library.wmo.int/doc_num.php?explnum_id=3138#page=277"> <strong>Resolution 16</strong></a> (Cg-17) – Report of the Sixteenth Session of
+the Commission for Climatology, decided to improve the definition of a Climatological Standard Normal.
+A Climatological Standard Normal now refers to the most recent 30-year period finishing in a year ending
+with zero (1981–2010, 1991–2020 etc.) rather than to non-overlapping 30-year-periods (1931–1960, 1961–1990
+etc.).
+<br><br>
+While Members are strongly encouraged to comply with the new standard as quickly as possible, WMO
+continues to serve as a collector of Climatological Standard Normals in order to establish a global holding
+of comparable and accessible standards. The United States of America National Oceanic and Atmospheric
+Administration (NOAA), through their <a href="https://www.ncei.noaa.gov/pub/data/normals/WMO/"> <strong>National Centres for Environmental Information 
+	</strong></a>(NCEI), generously
+agreed to continue collecting and publishing Climatological Standard Normals globally on behalf of WMO.
+WMO therefore invite Members to submit 1991–2020 Climatological Standard Normals for as many stations
+as possible, including stations registered in OSCAR/Surface, the Observing Systems Capability Analysis and
+Review tool for the surface-based observations, and in particular for stations that (i) constitute the Regional
+Basic Climatological Networks (RBCNs), (ii) report monthly CLIMAT messages, and (iii) contribute to the
+World Weather Records collection.
+<br><br>
+It is requested that data be calculated, digitized and provided in either EXCEL or text format, following the
+guidance provided in the WMO Guidelines on the Calculation of Climate Normals (WMO-No. 1203).
+<br><br>
+To facilitate this task, this application has been developed in R under Shiny to calculate the climatological
+standard normals values and write them into CSV files in the delivering format specified by WMO. It requires
+two input files (a Metadata file and a Daily data file). A template for these files can be downloaded via the
+web application interface.
+	
 To address the capacity building needs, in National Meteorological and Hydrological Services (NMHSs) of Central and West Africa countries, 
 and under the “West Africa Region: Seamless Operational Forecast Systems and Technical Assistance for Capacity Building (CREWS-West Africa)"
 Project, funded by the Climate Risk and Early Warning Systems (CREWS) initiative, 
